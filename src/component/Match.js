@@ -25,7 +25,7 @@ function Match() {
     <p className="card-text">Date : {(today.getDate()+1) + '-' + (today.getMonth() + 1) + '-' +today.getFullYear() }</p>
     <div className='flex items-center justify-between mt-3'>
     <Link to="/ivp" className="btn btn-dark">Match Details</Link>
-    <Link to="/booking" className="btn btn-dark">Book Now</Link>
+    <Link to="/booking" className="btn btn-dark">Book Ticket</Link>
     </div>
   </div>
 </div> 
@@ -38,7 +38,7 @@ function Match() {
     <p className="card-text">Date : {(today.getDate()+2) + '-' + (today.getMonth() + 1) + '-' +today.getFullYear() }</p>
     <div className='flex items-center justify-between mt-3'>
     <Link to="/nvs" className="btn btn-dark">Match Details</Link>
-    <Link to="/booking" className="btn btn-dark">Book Now</Link>
+    <Link to="/booking" className="btn btn-dark">Book Ticket</Link>
     </div>
   </div>
 </div> <div className="card" >
@@ -49,7 +49,7 @@ function Match() {
     <p className="card-text">Date : {(today.getDate()+4) + '-' + (today.getMonth() + 1) + '-' +today.getFullYear() }</p>
     <div className='flex items-center justify-between mt-3'>
     <Link to="/ivn" className="btn btn-dark">Match Details</Link>
-    <Link to="/booking" className="btn btn-dark">Book Now</Link>
+    <Link to="/booking" className="btn btn-dark">Book Ticket</Link>
     </div>
   </div>
 </div> <div className="card" >
@@ -60,7 +60,7 @@ function Match() {
     <p className="card-text">Date : {(today.getDate()+5) + '-' + (today.getMonth() + 1) + '-' +today.getFullYear() }</p>
     <div className='flex items-center justify-between mt-3'>
     <Link to="/wvn" className="btn btn-dark">Match Details</Link>
-    <Link to="/booking" className="btn btn-dark">Book Now</Link>
+    <Link to="/booking" className="btn btn-dark">Book Ticket</Link>
     </div>
   </div>
 </div> <div className="card" >
@@ -71,7 +71,7 @@ function Match() {
     <p className="card-text">Date : {(today.getDate()+6) + '-' + (today.getMonth() + 1) + '-' +today.getFullYear() }</p>
     <div className='flex items-center justify-between mt-3'>
     <Link to="/sva" className="btn btn-dark">Match Details</Link>
-    <Link to="/booking" className="btn btn-dark">Book Now</Link>
+    <Link to="/booking" className="btn btn-dark">Book Ticket</Link>
     </div>
   </div>
 </div>
@@ -83,7 +83,7 @@ function Match() {
     <p className="card-text">Date : {(today.getDate()+8) + '-' + (today.getMonth() + 1) + '-' +today.getFullYear() }</p>
     <div className='flex items-center justify-between mt-3'>
     <Link to="/ivs" className="btn btn-dark">Match Details</Link>
-<Link to="/booking" className="btn btn-dark">Book Now</Link>
+<Link to="/booking" className="btn btn-dark">Book Ticket</Link>
     </div>
   </div>
 </div>
