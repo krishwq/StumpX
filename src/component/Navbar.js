@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         <div className="hidden sm:ml-6 sm:block">
           <div className="flex space-x-4">
-          <Link to="/" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==='/'?`black`:""}`}>Home</Link>
+          <Link to="/StumpX" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==='/'?`black`:""}`}>Home</Link>
             <Link to="/about" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==="/about"?"black":'#5e5d62'}`}>About</Link>
             <Link to="/matches" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==='/matches'?`black`:'#5e5d62'}`}>Matches</Link>
             <Link to="/contact" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==='/contact'?`black`:'#5e5d62'}`}>Contact us</Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
 
   <div style={{display:'none'}} id="mobile-menu">
     <div className="space-y-1 px-2 pb-3 pt-2">
-      <Link to="/" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==='/'?`black`:'#5e5d62'}`}>Home</Link>
+      <Link to="/StumpX" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==='/'?`black`:'#5e5d62'}`}>Home</Link>
       <Link to="/about" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==='/about'?`black`:'#5e5d62'}`}>About</Link>
       <Link to="/matches" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==='/matches'?`black`:'#5e5d62'}`}>Matches</Link>
       <Link to="/contact" className={`rounded-md px-3 py-2 text-white font-medium  hover:bg-gray-700 hover:text-white text-lg ${location.pathname==='/contact'?`black`:'#5e5d62'}`}>Contact us</Link>

@@ -18,7 +18,7 @@ function App() {
       <Navbar/>
       </ShowNavbar>
       <Switch>
-        <Route exact path="/" >
+        <Route exact path="/StumpX" >
         <Home/>
         </Route>
         <Route path="/about">
