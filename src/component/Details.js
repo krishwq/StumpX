@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 function Details(props) {
   return (
@@ -24,7 +25,7 @@ function Details(props) {
                     )
                 })}
 </table>
-<a href="/booking" className="btn btn-dark my-3" target='_blank'  >Book Now</a>
+<Link to="/booking" className="btn btn-dark my-3" target='_blank'  >Book Now</Link>
     </center>
     </div>
   </div>
