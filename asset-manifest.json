@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/StumpX/static/css/main.8d480ce6.css",
-    "main.js": "/StumpX/static/js/main.bd40677b.js",
+    "main.js": "/StumpX/static/js/main.b11b2b90.js",
     "static/media/background_image.png": "/StumpX/static/media/background_image.231b7ca1b936b018330a.png",
     "static/media/logo.png": "/StumpX/static/media/logo.380f03d4135ec2270002.png",
     "static/media/map.png": "/StumpX/static/media/map.57833d8b64910792e403.png",
     "index.html": "/StumpX/index.html",
     "main.8d480ce6.css.map": "/StumpX/static/css/main.8d480ce6.css.map",
-    "main.bd40677b.js.map": "/StumpX/static/js/main.bd40677b.js.map"
+    "main.b11b2b90.js.map": "/StumpX/static/js/main.b11b2b90.js.map"
   },
   "entrypoints": [
     "static/css/main.8d480ce6.css",
-    "static/js/main.bd40677b.js"
+    "static/js/main.b11b2b90.js"
   ]
 }
