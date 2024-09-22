@@ -25,7 +25,7 @@ function Details(props) {
                     )
                 })}
 </table>
-<Link to="/booking" className="btn btn-dark my-3" target='_blank'  >Book Now</Link>
+<Link to="/booking" className="btn btn-dark my-3">Book Now</Link>
     </center>
     </div>
   </div>
